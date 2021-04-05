@@ -119,6 +119,7 @@
 		83796A2226182CD500D58CEA /* Result-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				83DDCBAD261AEB4C00867A4E /* Alert */,
 				83796A9F261853BD00D58CEA /* Router */,
 				83796A8626183F2C00D58CEA /* Utility */,
 				83796A5926182D1100D58CEA /* API */,
@@ -207,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				83796A8726183F3900D58CEA /* AppError.swift */,
-				83796A9226184EC300D58CEA /* Alert.swift */,
 				83796AA82618542500D58CEA /* StoryboardName.swift */,
 			);
 			path = Utility;
@@ -219,6 +219,14 @@
 				83796AA0261853C800D58CEA /* Router.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		83DDCBAD261AEB4C00867A4E /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				83796A9226184EC300D58CEA /* Alert.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
